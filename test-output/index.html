@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Demo_Frame_Work-_Test_Suite_1">
+              <span class="suite-name border-passed">Demo Frame Work- Test Suite 1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Demo_Frame_Work-_Test_Suite_1">
+                    <span>C:\Users\DELL\git\practice_local\Practice_NG_MVN_FRMWORK\Build\index1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Demo_Frame_Work-_Test_Suite_1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Demo_Frame_Work-_Test_Suite_1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Demo_Frame_Work-_Test_Suite_1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Demo_Frame_Work-_Test_Suite_1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Demo_Frame_Work-_Test_Suite_1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Demo_Frame_Work-_Test_Suite_1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Demo_Frame_Work-_Test_Suite_1" class="hide-methods passed suite-Demo_Frame_Work-_Test_Suite_1"> (hide)</a> <!-- hide-methods passed suite-Demo_Frame_Work-_Test_Suite_1 -->
+                      <a href="#" panel-name="suite-Demo_Frame_Work-_Test_Suite_1" class="show-methods passed suite-Demo_Frame_Work-_Test_Suite_1"> (show)</a> <!-- show-methods passed suite-Demo_Frame_Work-_Test_Suite_1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Demo_Frame_Work-_Test_Suite_1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Frame_Work-_Test_Suite_1" title="com.index.GeneralIndex" hash-for-method="purchaseorcheckout">purchaseorcheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Demo_Frame_Work-_Test_Suite_1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Demo_Frame_Work-_Test_Suite_1" class="panel Demo_Frame_Work-_Test_Suite_1">
+          <div class="suite-Demo_Frame_Work-_Test_Suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.index.GeneralIndex</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="purchaseorcheckout">
+                  </a> <!-- purchaseorcheckout -->
+                  <span class="method-name">purchaseorcheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Frame_Work-_Test_Suite_1-class-passed -->
+        </div> <!-- panel Demo_Frame_Work-_Test_Suite_1 -->
+        <div panel-name="test-xml-Demo_Frame_Work-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DELL\git\practice_local\Practice_NG_MVN_FRMWORK\Build\index1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;Demo Frame Work- Test Suite 1&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;selenium.port&quot; value=&quot;4444&quot;/&gt;
+  &lt;parameter name=&quot;selenium.host&quot; value=&quot;localhost&quot;/&gt;
+  &lt;parameter name=&quot;selenium.browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;selenium.url&quot; value=&quot; http://toolsqa.com&quot;/&gt;
+  &lt;test name=&quot;Test Script :: 01&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.index.GeneralIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;purchaseorcheckout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.index.GeneralIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Script :: 01 --&gt;
+&lt;/suite&gt; &lt;!-- Demo Frame Work- Test Suite 1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Demo_Frame_Work-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Demo Frame Work- Test Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Script :: 01 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Demo_Frame_Work-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Demo Frame Work- Test Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Demo_Frame_Work-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Demo Frame Work- Test Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Demo_Frame_Work-_Test_Suite_1');
+function tableData_Demo_Frame_Work-_Test_Suite_1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'purchaseorcheckout')
+data.setCell(0, 2, 'com.index.GeneralIndex')
+data.setCell(0, 3, 191024);
+window.suiteTableData['Demo_Frame_Work-_Test_Suite_1']= { tableData: data, tableDiv: 'times-div-Demo_Frame_Work-_Test_Suite_1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Demo_Frame_Work-_Test_Suite_1">
+              </div> <!-- times-div-Demo_Frame_Work-_Test_Suite_1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Demo_Frame_Work-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Demo Frame Work- Test Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">purchaseorcheckout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> To verify that user is able to checkout with all valid fields </h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> --------------------------------------------------------------------------</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step 1. open : http://toolsqa.com</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 2. click on Demo Sites Menu</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 3. click on E Commerce Demo site link</strong></br></span>
+                <span class="reporter-method-output"></br>--->  E Commerce Demo site Home page is opened  <---</span>
+                <span class="reporter-method-output"><br><strong>Step 4. Mouse Hover on Product Category</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 5. Click on ipads link</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 6. Click on any product and open the product detail page</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 7. Add product to the CART</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 8. Open the Cart</strong></br></span>
+                <span class="reporter-method-output"><br><Strong><font color=#009000>Verify that product added to the cart</font></strong></br></span>
+                <span class="reporter-method-output"></br>---> Product is added to the cart <---</span>
+                <span class="reporter-method-output"><br><strong>Step 9. Update the quantity of the product from 1 to 2</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 10. Click on Update Button</strong></br></span>
+                <span class="reporter-method-output"></br>---> Click on Update button  <---</span>
+                <span class="reporter-method-output"><br><Strong><font color=#009000>Verify that the product quality has been updated in the cart</font></strong></br></span>
+                <span class="reporter-method-output"></br>---> Product quantity is upadted into the cart <---</span>
+                <span class="reporter-method-output"><br><strong>Step 11. Click on Continue Button</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 12. Enter Email Address in Billing Information</strong></br></span>
+                <span class="reporter-method-output"></br>--->Enter Valid Emailid = kiwiqatestvipul@gmail.com <---</span>
+                <span class="reporter-method-output"><br><strong>Step 13. Enter Your billing/contact details</strong></br></span>
+                <span class="reporter-method-output"></br>--->Enter Valid FirstName = vipul <---</span>
+                <span class="reporter-method-output"></br>--->Enter Valid LastName = patel <---</span>
+                <span class="reporter-method-output"></br>--->Enter Valid Address = 01 kiwiqa service ltd. <---</span>
+                <span class="reporter-method-output"></br>--->Enter Valid City =  Ahmedabad <---</span>
+                <span class="reporter-method-output"></br>--->Enter Valid state/Province = Gujrat <---</span>
+                <span class="reporter-method-output"></br>--->Enter Valid state/Province = India <---</span>
+                <span class="reporter-method-output"></br>--->Enter Valid state/Province = 384265 <---</span>
+                <span class="reporter-method-output"></br>--->Enter Valid state/Province = 1234567890 <---</span>
+                <span class="reporter-method-output"><br><strong>Step 14. Enter Shipping Address Information/Details</strong></br></span>
+                <span class="reporter-method-output"></br>---> Chose Shipping Address same as Billing Address <---</span>
+                <span class="reporter-method-output"><br><strong>Step 15. Click on Purchase Button</strong></br></span>
+                <span class="reporter-method-output"></br>---> Click on purchase button  <---</span>
+                <span class="reporter-method-output"><br><strong>Order placed successfully</strong></br></span>
+                <span class="reporter-method-output"></br><br><Strong><font color=#008000>Pass</font></strong></br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Demo_Frame_Work-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.index.GeneralIndex</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">phonefield_minimum_length</span>
+                <br/>
+                <span class="ignored-method-name">usernamealreadyexist</span>
+                <br/>
+                <span class="ignored-method-name">allvaliddata</span>
+                <br/>
+                <span class="ignored-method-name">emailidalreadyexist</span>
+                <br/>
+                <span class="ignored-method-name">invalidemailid</span>
+                <br/>
+                <span class="ignored-method-name">blankfields</span>
+                <br/>
+                <span class="ignored-method-name">password_minimum_length</span>
+                <br/>
+                <span class="ignored-method-name">passwordnotmatch</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Demo_Frame_Work-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.index.GeneralIndex</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@192b07fd)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.index.GeneralIndex.purchaseorcheckout(), org.testng.TestRunner@192b07fd)</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">purchaseorcheckout</span>
+                <span class="method-start">14270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=purchaseorcheckout status=SUCCESS method=GeneralIndex.purchaseorcheckout()[pri:0, i...)</span>
+                <span class="method-start">205295 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
